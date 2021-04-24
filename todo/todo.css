@@ -1,0 +1,43 @@
+
+/*element Selector*/
+h1 {
+	color: green;
+}
+
+/*id Selector*/
+#priority {
+	background: yellow;
+}
+/*class Selector*/
+.social {
+	text-decoration: line-through;
+}
+
+/*Star*/
+* {
+
+}
+
+/*Descendant Selector*/
+/*-Will select the <li tag, then inside that the <a anchor tag*/
+li a {
+
+}
+
+/*Adjacent Selector*/
+/*selects the <ul AFTER the <h4*/
+h4 + ul {
+
+}
+
+/*Attribute Selector*/
+a[href="http://www.google.com"] {
+	background: green;
+}
+
+input[type="checkbox"] {
+	background blue
+}
+
+
+/*nth of type*/

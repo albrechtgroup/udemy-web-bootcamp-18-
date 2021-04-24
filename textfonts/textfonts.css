@@ -1,0 +1,17 @@
+p {
+	font-family: 'Crimson Text', serif;
+	font-size: 23px;
+	line-height: 2.3em
+}
+
+h1 {
+	color: green;
+	font-family: Georgia;
+	font-size: 73px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+span {
+	font-size: 1.5em;
+}

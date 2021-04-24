@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity, Descendants, and the Cascade</title>
+	<style type="text/css">
+		body {
+			color: green;
+		}
+		ul {
+			color: yellow;
+		}
+		li {
+			color: black;
+		}
+		.highlight {
+			color: salmon;
+		}
+		/*id WINS*/
+		#first {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+
+<h1>Specificity, Descendants, and the Cascade</h1>
+
+	<ul>
+		<li id="first" class="highlight">Slash Ultimate</li>
+		<li>Rubicon</li>
+		<li>Poison Spyder</li>
+		<Li class="highlight">Raptor</LI>
+
+
+	</ul>
+
+</body>
+</html>
